@@ -1,0 +1,67 @@
+.cropit-image-preview {
+	background-color: #f8f8f8;
+	background-size: cover;
+	border: 1px solid #006CDB;
+	border-radius: 0px;
+	margin-top: 7px;
+	width: 400px;
+	height: 400px;
+	cursor: move;
+}
+
+.cropit-image-background {
+	opacity: .2;
+	cursor: auto;
+}
+
+
+.image-size-label {
+	margin-top: 10px;
+}
+
+input {
+	/* Use relative position to prevent from being covered by image background */
+	position: relative;
+	z-index: 10;
+	display: block;
+}
+
+.export {
+	margin-top: 10px;
+}
+
+input.cropit-image-input {
+/*Ocultar el File Input*/
+	visibility: hidden;
+}
+
+preview-portada {
+    border: 1px solid #eee;
+    height: 176px;
+    width: 560px;
+}
+
+.cropit-image-preview .error-msg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 20px;
+    color: #fff;
+    background: rgba(210,65,72,0.8);
+    line-height: 1.5;
+    text-align: center;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    -webkit-transition: opacity 0.25s;
+    -moz-transition: opacity 0.25s;
+    -o-transition: opacity 0.25s;
+    -ms-transition: opacity 0.25s;
+    transition: opacity 0.25s;
+}
+
+.cropit-image-preview.has-error .error-msg {
+    opacity: 1;
+    -ms-filter: none;
+    filter: none;
+}

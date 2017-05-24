@@ -21,7 +21,7 @@ src: url("../plugins/bootstrap/fonts/myriad-set-pro_bold.ttf");
 
 body {
 	margin: 0;
-	background-image: url("../img/fondopagina.jpg");
+	/*background-image: url("../img/fondopagina.jpg"); */
 	font-size: 12px;
 	margin-top: 100px;
 	margin-bottom:100px;
@@ -69,11 +69,11 @@ box-shadow: 0px -1px 26px -1px rgba(0,0,0,0.4);
 }
 .conte1
 {
-	
+
 	background-color: rgba(255,255,255,0.4);
 	border: #E4E4E4 1px solid;
 	padding: 20px;
-	
+
 }
 
 .contenedor>b {
@@ -131,7 +131,7 @@ font-size: 16px;
 
 .tam-detalle-ventas
 {
-width: 50%;	
+width: 50%;
 }
 .tam-img-publ
 {
@@ -175,19 +175,19 @@ text-align: left;
 {
 	margin-right:300px;
 	margin-left:50px;
-	
-	
+
+
 }
 
 .mar-pagos-ven
 {
 	margin:20px;
-	
+
 }
 
 .lista-estadisticas > div
 {
-	
+
 	 padding: 10px;
 	 font-size: 16px;
 }
@@ -342,7 +342,7 @@ box-shadow: 2px 2px 12px -5px rgba(0,0,0,0.75);
 
 .img-publicar:hover {
 	opacity: 1;
-	 transform:translate(0px, 10px); 
+	 transform:translate(0px, 10px);
 }
 
 .img-publicar2 {
@@ -355,7 +355,7 @@ box-shadow: 2px 2px 12px -5px rgba(0,0,0,0.75);
 
 .img-publicar2:hover {
 	opacity: 1;
-	 transform:translate(0px, 10px); 
+	 transform:translate(0px, 10px);
 }
 
 .panel-default > .panel-heading > h4 > a{
@@ -432,7 +432,7 @@ box-shadow: 2px 2px 12px -5px rgba(0,0,0,0.75);
 
 .img-red-perfil
 {
-	width: 45px; height: 45px; 
+	width: 45px; height: 45px;
 	border:solid 1px #ccc;
 	-webkit-transition: all 0.7s ease-out;
 	-moz-transition: all 0.7s ease;
@@ -449,6 +449,10 @@ box-shadow: 2px 2px 12px -5px rgba(0,0,0,0.75);
  border: solid 1px #0066CC;
 }
 
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+ }
 
 /* ************* Fin de foto de amigos ************* */
 
@@ -506,7 +510,7 @@ box-shadow: 2px 2px 12px -5px rgba(0,0,0,0.75);
 .btn-default {
 -webkit-transition: all 0.3s ease-out;
 	-moz-transition: all 0.3s ease;
-	-o-transition: all 0.3s ease;	
+	-o-transition: all 0.3s ease;
 }
 
 .btn-default2 {
@@ -627,7 +631,7 @@ box-shadow: 2px 2px 12px -5px rgba(0,0,0,0.75);
 	-moz-box-shadow: 0px 7px 14px -5px rgba(0, 0, 0, 0.4);
 	box-shadow: 0px 7px 14px -5px rgba(0, 0, 0, 0.4);
 }
- .trans-top:hover 
+ .trans-top:hover
 {
 	transform: translate(0px, -3px);
 }
@@ -749,7 +753,7 @@ box-shadow: 2px 2px 12px -5px rgba(0,0,0,0.75);
 }
 .btn-default3:hover {
 	color: #666;
-	
+
 }
 
 .btn-default3:active, .btn-default3.active, .open>.dropdown-toggle.btn-default3
@@ -1064,8 +1068,8 @@ select::-webkit-scrollbar-thumb {
 	-o-transition: border-color ease-in-out .15s, box-shadow ease-in-out
 		.15s;
 	transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
-	
-	
+
+
 }
 .form-textarea:focus {
 	outline: 0;
@@ -1082,11 +1086,11 @@ select::-webkit-scrollbar-thumb {
 	background-image: none;
 	border: 1px dotted #ccc;
 	border-radius: 4px;
-	-webkit-transition: border-color ease-in-out .15s, 
+	-webkit-transition: border-color ease-in-out .15s,
 	-webkit-box-shadow ease-in-out .15s;
-	-o-transition: border-color ease-in-out .15s, 
+	-o-transition: border-color ease-in-out .15s,
 	box-shadow ease-in-out .15s;
-	transition: border-color ease-in-out .15s, 
+	transition: border-color ease-in-out .15s,
 	box-shadow ease-in-out .15s; text-align: left;
 	resize: none;
 	background: #FaFaFa;
@@ -1108,17 +1112,17 @@ select::-webkit-scrollbar-thumb {
 	text-align: left;
 	resize: none;
 	background:#FFFFF;
-	
+
 	height: 250px;
-	
-	
+
+
 }
 
 .form-textarea-msj:focus {
 	outline: 0px;
 	border: 0;
 	border-radius: 0px
-	
+
 }
 
 .form-textarea-msj2 {
@@ -1137,8 +1141,8 @@ select::-webkit-scrollbar-thumb {
 	text-align: left;
 	resize: none;
 	height: 55px;
-	
-	
+
+
 }
 .form-textarea-msj2-act {
 	display: block;
@@ -1156,16 +1160,16 @@ select::-webkit-scrollbar-thumb {
 	text-align: left;
 	resize: none;
 	height: 140px;
-	
-	
+
+
 }
 .form-textarea-msj2.preguntas {
-	
+
 	background: url("http://usedglassprinter.com/wp-content/uploads/2014/06/talk_icon.png") no-repeat ;
     background-size: 25px 25px;
 	background-position: 10px 12px;
 	background-color: #FFF;
-	
+
 }
 
 .form-textarea-msj2.preguntas:focus {
@@ -1179,11 +1183,11 @@ select::-webkit-scrollbar-thumb {
 	background-position: 10px 12px;
 }
 .form-textarea-msj2-act.preguntas {
-	
+
 	background: url("http://usedglassprinter.com/wp-content/uploads/2014/06/talk_icon.png") no-repeat ;
     background-size: 25px 25px;
 	background-position: 10px 12px;
-	
+
 }
 
 .form-textarea-msj2-act.preguntas:focus {
@@ -1191,14 +1195,14 @@ select::-webkit-scrollbar-thumb {
 	outline: 0px;
 	border-radius: 0px;
 	height: 140px;
-	
+
 }
 .form-textarea-msj2:focus {
 	outline: 0px;
 	border: 0;
 	border-radius: 0px;
 	height: 140px;
-	
+
 }
 
 .form-textarea-foto:focus {
@@ -1258,12 +1262,12 @@ select::-webkit-scrollbar-thumb {
 .text-boton-compra
 {
 	text-align: left;
-} 
+}
 
 .img-descripcion  img
 {
 width: auto;
-height: auto;	
+height: auto;
 }
 
 .img-descripcion p, .img-descripcion h1, .img-descripcion h2, .img-descripcion h3, .img-descripcion h4, .img-descripcion h5, .img-descripcion span
@@ -1287,7 +1291,7 @@ height: auto;
 
 .mar-detalle-comprar
 {
-margin:20px;	
+margin:20px;
 }
 .mar-detalle-contenedor
 {
@@ -1364,16 +1368,16 @@ div.vertical-line {
 /* Categorias*/
 
 
-.categorias > div 
+.categorias > div
 {
 	margin-bottom: 2px ;
 }
-.categorias > div > a> div 
+.categorias > div > a> div
 {
 	background: #FFF;
 	color: #666;
 	border: 1px solid #ccc;
-	
+
 	padding-top: 10px;
 	padding-bottom: 7px;
 	text-align: left;
@@ -1407,12 +1411,12 @@ div.vertical-line {
 	text-decoration: none;
 
 }
-.categorias2 > div 
+.categorias2 > div
 {
 	margin-bottom: 2px ;
 }
 
-.categorias2 > div > a> div 
+.categorias2 > div > a> div
 {
 	background: #00468e;
 	color: #FFF;
@@ -1438,29 +1442,29 @@ div.vertical-line {
 	background: #005fc1;
 }
 
-.categorias2 > div > a > div.active-cat 
+.categorias2 > div > a > div.active-cat
 {
 	background: #005fc1;
 	text-decoration: none;
 }
 
-.active-cat 
+.active-cat
 {
 	background: #666;
 	text-decoration: none;
 }
 
 .categorias2 > div > a:hover , .categorias2 > div > a:focus
-{ 
+{
 	text-decoration: none;
 }
 
-.categorias3 > div 
+.categorias3 > div
 {
 	margin-bottom: 2px ;
-	
+
 }
-.categorias3 > div > a> div 
+.categorias3 > div > a> div
 {
 	background: #FFF;
 	color: #666;
@@ -1475,7 +1479,7 @@ div.vertical-line {
 	-webkit-box-shadow: 1px 0px 24px -4px rgba(0, 0, 0, 0.50);
 	-moz-box-shadow: 1px 0px 24px -4px rgba(0, 0, 0, 0.50);
 	box-shadow: 1px 0px 24px -4px rgba(0, 0, 0, 0.50);
-	
+
 }
 .categorias3 > div > a > div >img
 {
@@ -1506,7 +1510,7 @@ div.vertical-line {
 	margin-top:-15px;
 	text-align: left;
 	font-size: 26px;
-	
+
 }
 .oculto2
 {
@@ -1543,7 +1547,7 @@ div.vertical-line {
 	text-decoration: underline;
 }
 .blue-vin{
-color: #06C;	
+color: #06C;
 }
 
 /* ************* Fin vinculos  ************* */
@@ -1656,7 +1660,7 @@ color: #06C;
 }
 
 .foto-perfil:hover {
-	
+
 }
 
 .rota-img {
@@ -1731,11 +1735,11 @@ color: #06C;
 /* ************* Fin de foto de perfil  ************* */
 .subir-img
 {
-height: 100px ; 
-width: 100px ; 
-border: 1px dashed #999 ; 
+height: 100px ;
+width: 100px ;
+border: 1px dashed #999 ;
 float: left ;
- margin-left: 10px ; 
+ margin-left: 10px ;
 		background-image: url("../img/camara.png");
 		background-size: 60px 60px ;
 	 background-repeat: no-repeat ;
@@ -1745,11 +1749,11 @@ float: left ;
 }
 .subir-img:hover
 {
-height: 100px ; 
-width: 100px ; 
-border: 1px dashed #999 ; 
+height: 100px ;
+width: 100px ;
+border: 1px dashed #999 ;
 float: left ;
- margin-left: 10px ; 
+ margin-left: 10px ;
 		background-image: url("../img/camara.png");
 		background-size: 60px 60px ;
 	 background-repeat: no-repeat ;
@@ -1758,11 +1762,11 @@ float: left ;
 }
 .subir-img-active
 {
-	height: 100px ; 
-	width: 100px ; 
-	border: 1px dashed #999 ; 
+	height: 100px ;
+	width: 100px ;
+	border: 1px dashed #999 ;
 	float: left ;
-	margin-left: 10px ; 
+	margin-left: 10px ;
 	background-image: url("../img/camara.png");
 	background-size: 60px 60px ;
 	background-repeat: no-repeat ;
@@ -1772,16 +1776,16 @@ float: left ;
 
 .img-detalle
 {
-	height: 100px ; 
-	width: 100px ; 
-	border: 1px dashed #999 ; 
+	height: 100px ;
+	width: 100px ;
+	border: 1px dashed #999 ;
 	float: left ;
-	margin-left: 10px ; 
+	margin-left: 10px ;
 	cursor: pointer;
 	margin-left: 0px;
 }
 
-	/* ************* Resumen ************* */ 
+	/* ************* Resumen ************* */
 .foto-resumen {
 	background: #FFF;
 	transform: rotate(10deg);
@@ -1808,7 +1812,7 @@ float: left ;
 	cursor:pointer;
 }
 .sugerencias-esp{
-	
+
 	padding-bottom: 5px;
 	padding-top: 5px;
 	cursor:pointer;
@@ -1859,12 +1863,12 @@ opacity: 1;
 }
 .calendario:hover
 {
-	
+
 	cursor: pointer;
 	color:#333;
-	
+
 }
-.redes-dias 
+.redes-dias
 {
 	width: 300px;
 	font-size: 14px;
@@ -1915,33 +1919,33 @@ opacity: 1;
 
 @media ( max-width :1426px) {
 
-.categorias > div > a> div 
-{	
-	font-size: 12px;	
+.categorias > div > a> div
+{
+	font-size: 12px;
 }
-.categorias2 > div > a> div 
-{	
-	font-size: 14px;	
-}	
+.categorias2 > div > a> div
+{
+	font-size: 14px;
+}
 }
 @media ( max-width :1303px) {
 
-.categorias > div > a> div 
-{	
-	font-size: 10px;	
-}	
-.categorias2 > div > a> div 
-{	
-	font-size: 13px;	
+.categorias > div > a> div
+{
+	font-size: 10px;
+}
+.categorias2 > div > a> div
+{
+	font-size: 13px;
 }
 }
 
 @media ( max-width :1280px) {
 
 
-	.categorias2 > div > a> div 
-{	
-	font-size: 12px;	
+	.categorias2 > div > a> div
+{
+	font-size: 12px;
 }
 	.ubi-luto
 {
@@ -1950,9 +1954,9 @@ opacity: 1;
 }
 @media ( max-width :1200px) {
 
-	.categorias2 > div > a> div 
-{	
-	font-size: 16px;	
+	.categorias2 > div > a> div
+{
+	font-size: 16px;
 }
 .text2-homenaje
 {
@@ -1966,7 +1970,7 @@ font-size: 16px;
 .text1-homenaje
 {
 width: 80%; color: #333; font-size: 16px;
-}	
+}
 .dim-img-homenaje
 {
 	height: 30%; width: 30%; border: none;
@@ -1983,7 +1987,7 @@ width: 80%; color: #333; font-size: 16px;
 	margin-left:5px;
 	margin-top:20px;
 	text-align: left;
-	font-size: 26px;	
+	font-size: 26px;
 	}
 	.tam-modal-formulario
 {
@@ -2004,10 +2008,10 @@ width: 80%; color: #333; font-size: 16px;
 
 @media ( max-width :1190px) {
 
-.categorias > div > a> div 
-{	
-	font-size: 14px;	
-}	
+.categorias > div > a> div
+{
+	font-size: 14px;
+}
 }
 
 @media ( max-width :900px) {
@@ -2029,11 +2033,11 @@ width: 80%; color: #333; font-size: 16px;
 {
 width: 65%;
 font-size: 16px;
-}	
+}
 .dim-form-homenaje
 {
 	width: 80%;
-}	
+}
 	.ubi-luto
 {
 	position: absolute; z-index: 9999; top: 10px; right: 2px; height: 40px; width: auto;
@@ -2049,11 +2053,11 @@ font-size: 16px;
 .text-boton-compra
 {
 	text-align: center;
-} 
+}
 .img-descripcion  img
 {
 width: 400px;
-height: auto;	
+height: auto;
 }
 .items-comprar
 {
@@ -2075,8 +2079,8 @@ height: auto;
 }
 .mar-detalle-comprar
 {
-margin:0px;	
-margin-left:-10px; 
+margin:0px;
+margin-left:-10px;
 margin-right:-10px;
 }
 .text2-homenaje
@@ -2087,22 +2091,22 @@ font-size: 16px;
 .dim-form-homenaje
 {
 	width: 90%;
-}	
+}
 .text1-homenaje
 {
 width: 90%; color: #333; font-size: 16px;
-}	
+}
 .dim-img-homenaje
 {
 	height: 50%; width: 50%; border: none;
-}	
+}
 			.ubi-luto
 {
 	position: absolute; z-index: 9999; top: 2px; right: 0px; height: 40px; width: auto;
 }
 .tam-detalle-ventas
 {
-width: 60%;	
+width: 60%;
 }
 .tam-publicidad
 {
@@ -2116,12 +2120,12 @@ text-align: left;
 	width:90%;
 	margin-left: 10px;
 }
-	
+
 .mar-envios
 {
 	margin-right:10px;
 	margin-left:10px;
-	
+
 }
 
 .mar-publicidad{
@@ -2132,7 +2136,7 @@ text-align: left;
 }
 	.lista-estadisticas > div
 {
-	
+
 	 padding: 10px;
 	 font-size: 12px;
 }
@@ -2269,16 +2273,16 @@ text-align: left;
 		margin-left: 25px;
 	}
 	.seu-nom-perfil-header {
-		
+
 		position: absolute;
 		top: 40%;
 		left:40%;
 		color: #FFF;
 		text-align: left;
-		
-		
+
+
 	}
-	
+
 }
 
 @media ( max-width :500px ) {
@@ -2295,20 +2299,20 @@ text-align: left;
 	cursor: default;
 	font-size: 12px;
 	color: #FFF;
-}	
+}
 .mar-header-perfil
 {
 	margin-top:50px;
-}	
+}
 .perfil-text-mobil
 {
 	display: block;
-}	
+}
 .img-descripcion  img
 {
 width: 300px;
-height: auto;	
-}	
+height: auto;
+}
 .items-comprar
 {
 	text-align: left;
@@ -2329,15 +2333,15 @@ font-size: 14px;
 .dim-form-homenaje
 {
 	width: 95%;
-}	
+}
 .text1-homenaje
 {
 width: 100%; color: #333; font-size: 14px; text-align: justify;
-}	
+}
 .dim-img-homenaje
 {
 	height: 70%; width: 70%; border: none;
-}	
+}
 		.ubi-luto
 {
 	position: absolute; z-index: 9999; top: 40px; right: 20px; height: 40px; width: auto;
@@ -2349,7 +2353,7 @@ width: 100%; color: #333; font-size: 14px; text-align: justify;
 }
 	.tam-detalle-ventas
 {
-width: 100%;	
+width: 100%;
 }
 	.tam-img-publ
 {
@@ -2364,8 +2368,8 @@ width: 100%;
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-	
-		
+
+
 	}
 	.pull-right-me-gusta {
 		float: none !important;
@@ -2380,7 +2384,7 @@ width: 100%;
 		background-image: url("../galeria/img/fondos/portada2.jpg");
 		background-repeat: repeat;
 		padding-top: 10px;
-		
+
 	}
 	.seu-nom-perfil-header {
 		display:none;
@@ -2403,13 +2407,13 @@ width: 100%;
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-	
-		
+
+
 	}
 .img-descripcion  img
 {
 width: 200px;
-height: auto;	
+height: auto;
 }
 .monto-comprar
 {
@@ -2426,7 +2430,7 @@ font-size: 14px;
 .dim-form-homenaje
 {
 	width: 100%;
-}	
+}
 	.dim-img-homenaje
 {
 	height: 85%; width: 85%; border: none;
@@ -2434,7 +2438,7 @@ font-size: 14px;
 	.ubi-luto{
 	position: absolute; z-index: 9999; top:10px; right: 2px; height: 30px; width: auto;
 }
-	
+
 	.mar-estadisticas
 	{
 	width: 100%;
@@ -2453,7 +2457,7 @@ font-size: 14px;
 		display: block;
 		cursor: pointer;
 	}
-	
+
 
 .rdias-open {
   overflow: visible;
@@ -2553,7 +2557,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00c3ec', end
 -webkit-box-shadow: 0px 5px 21px -2px rgba(0,0,0,0.5);
 -moz-box-shadow: 0px 5px 21px -2px rgba(0,0,0,0.5);
 box-shadow: 0px 5px 21px -2px rgba(0,0,0,0.5);
-  
+
 }
 .rdias-header .close {
   margin-top: -2px;
@@ -2569,7 +2573,7 @@ box-shadow: 0px 5px 21px -2px rgba(0,0,0,0.5);
 .rdias-footer {
   padding: 15px;
   text-align: right;
-  
+
 }
 .rdias-footer .btn + .btn {
   margin-bottom: 0;
@@ -2595,7 +2599,7 @@ box-shadow: 0px 5px 21px -2px rgba(0,0,0,0.5);
 .img-descripcion  img
 {
 width: 150px;
-height: auto;	
+height: auto;
 }
 }
 /*@media (min-width: 768px) {

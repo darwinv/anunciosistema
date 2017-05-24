@@ -12,7 +12,7 @@
 				width="120px;" height="50px">
 			</a>
 		</div>
-		<div class="collapse navbar-collapse" id="menuP">
+	<!--	<div class="collapse navbar-collapse" id="menuP">
 			<div class="navbar-form navbar-left">
 				<div class="pad15">
 					<form class="navbar-form navbar-left" role="search" action="{{ route('publications.listado') }}">
@@ -20,7 +20,7 @@
 							<input type="text" class="form-control" placeholder="Buscar" style="margin-left: -10px; border-left: trasparent;width:300px; border-bottom-left-radius: 0px;">
 							<button type="submit" class="btn-header2 btn-default-header2"><span class="glyphicon glyphicon-search"></span></button>
 						</div>
-					</form>								
+					</form>
 				</div>
 			</div>
 			{!! Form::open(['url' => route('auth.post.login'), 'method' => 'POST']) !!}
@@ -30,7 +30,7 @@
 						<a class="marT10 alert-reg point" href="{{route('auth.get.register')}}"> Inscribete <span class="glyphicon glyphicon-log-in"></span>
 						</a>
 					</li>
-					<li class="dropdown"><a class="dropdown-toggle marT10 pointer" data-toggle="dropdown" role="button" aria-expanded="false"> 
+					<li class="dropdown"><a class="dropdown-toggle marT10 pointer" data-toggle="dropdown" role="button" aria-expanded="false">
 						Ingresa <span class="glyphicon glyphicon-user"></span>
 					</a>
 						<ul class="dropdown-menu dropdown-menu-log " role="menu">
@@ -60,7 +60,8 @@
 						</ul></li>
 				</ul>
 			{!! Form::close() !!}
-		</div>
+		</div> -->
 		</div>
 </nav>
+
 <script type="text/javascript" src="../js/restablecer.js"></script>

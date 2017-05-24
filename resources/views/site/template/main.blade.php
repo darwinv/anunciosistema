@@ -12,13 +12,13 @@
 		@yield('js')
         <title>@yield('title','Clasificados')</title>
     </head>
-    <body>		
+    <body>
 		@if(Auth::user())
 			@include("site.template.partials.nav-user")
 		@else
-			@include("site.template.partials.nav")		
+			@include("site.template.partials.nav")
 		@endif
-        <div class="row container">
+        <div class="row container-fluid">
 			<div class="hidden-xs col-sm-4"></div>
 			<div class="col-xs-12 col-sm-6">
 				@include('flash::message')
@@ -28,14 +28,14 @@
 							@foreach($errors->all() as $error)
 								<li>{{ $error }}</li>
 							@endforeach
-						</ul>					
+						</ul>
 					</div>
 				@endif
 			</div>
 			<div class="hidden-xs col-sm-2"></div>
             <div class="col-xs-12">
                 @yield('content')
-            </div>                        
+            </div>
         </div>
         <div class="container">
             @include('site.template.partials.footer')

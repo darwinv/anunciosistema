@@ -40,7 +40,7 @@
                 @yield('content')
             </div>
         </div>
-        <div class="container">
+        <div class="container-fluid">
             @include('site.template.partials.footer')
         </div>
 		@yield('modales')

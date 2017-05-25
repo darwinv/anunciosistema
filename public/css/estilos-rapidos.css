@@ -304,6 +304,9 @@
 {
 	padding: 20px;
 }
+.pad25{
+	padding:25px;
+}
 .pad40
 {
 	padding: 40px;
@@ -380,30 +383,30 @@
 .red
 {
 	color:#B90000;
-	
+
 }
 .red2
 {
 	color:#F00;
-	
+
 }
 
 .blue
 {
 	color: #039;
-	
+
 }
 
 .yellow
 {
 	color: #FC0;
-	
+
 }
 
 .elect
 {
 	color: #414388;
-	
+
 }
 
 .grisO

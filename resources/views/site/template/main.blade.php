@@ -5,10 +5,13 @@
         <link rel="stylesheet" href="{{asset('css/estilos-rapidos.css')}}">
         <link rel="stylesheet" href="{{asset('plugins/bootstrap/css/bootstrap.css')}}">
         <link rel="stylesheet" href="{{asset('css/font-awesome.min.css')}}">
+
+        <link rel="stylesheet" href="{{asset('css/CSSScript.css')}}">
 		@yield('css')
 <!--        <script src="{{asset('plugins/jquery/js/jquery-3.1.1.min.js')}}"></script>-->
 		<script src="{{asset('plugins/jquery/js/jquery.min.js')}}"></script>
         <script src="{{asset('plugins/bootstrap/js/bootstrap.min.js')}}"></script>
+        <script src="{{asset('js/fincaraiz.js')}}"></script>
 		@yield('js')
         <title>@yield('title','Clasificados')</title>
     </head>

@@ -3,7 +3,7 @@
 
 @section('content')
 	<div class="hidden-xs col-sm-2"></div>
-<div class="row container-fluid">
+<div class="container-fluid">
 	<div class="col-xs-12">
 							<ul class="nav navbar-nav">
 									<li><a href="#"><i class="fa fa-home"></i></a>
@@ -58,26 +58,204 @@
 
 	<div class="col-xs-12 col-sm-12 ">
 		<!-- CATEGORIAS BEGIN -->
-		<div class="col-xs-12 contenedor" style="height:370px;overflow:auto;">
-			<center><h1>Realiza tu búsqueda aquí</h1></center>
-			<div class="container">
-		<div class="row">
-			 <div class="col-lg-12">
-				<div class="button-group">
-							<button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-cog"></span> <span class="caret"></span></button>
-				<ul class="dropdown-menu">
-						<li><a href="#" class="small" data-value="option1" tabIndex="-1"><input type="checkbox"/>&nbsp;Option 1</a></li>
-						<li><a href="#" class="small" data-value="option2" tabIndex="-1"><input type="checkbox"/>&nbsp;Option 2</a></li>
-						<li><a href="#" class="small" data-value="option3" tabIndex="-1"><input type="checkbox"/>&nbsp;Option 3</a></li>
-						<li><a href="#" class="small" data-value="option4" tabIndex="-1"><input type="checkbox"/>&nbsp;Option 4</a></li>
-						<li><a href="#" class="small" data-value="option5" tabIndex="-1"><input type="checkbox"/>&nbsp;Option 5</a></li>
-						<li><a href="#" class="small" data-value="option6" tabIndex="-1"><input type="checkbox"/>&nbsp;Option 6</a></li>
-				</ul>
-				</div>
-			</div>
-		</div>
-</div>
-		</div>
+		
+		<div class="col-xs-12" >
+			<div id="DivHomeSearch" class="DivHomeSearch">
+            <!--search contenedor-->
+                <div class="container">
+                    <div class="clear"></div>
+                    <div class="col-xs-12 searchbox">
+                        <h1 class="text-center TitleBusqueda h1">Realiza tu búsqueda aquí</h1>
+                        <!--tabs-->  
+                        <div class="navbar-form">
+                            <div class="form-group">
+                              <div id="divContainerCategories" class="form-control w140" style="padding:0px 0px !important;">
+                                <div class="dropdown-check-list" style="padding:0px 6px !important;">          
+                                    <span class="anchor" style="padding:11px 0px !important;" onclick="DisplayOptions(this);">¿Qué buscas?</span>
+                                    <div id="ddlCategories" binding="Category1Id" class="drop" style="margin: 2px -7px 6px -7px !important;">
+                                        <ul id="ddlCategoriesVivienda" class="items">
+                                            <li style="font-weight:bold" catheader="true" class="li">
+                                                <label for="">Vivienda</label>
+                                            </li>
+                                                                               
+                                                    
+                                                    <li li-selected="False" class="li" onclick="SelectCategoryItem(this);">
+                                                        <input id="chkCategory8" value="8" type="checkbox">
+                                                        <label>Apartamento</label>
+                                                    </li>
+                                                                                   
+                                                    
+                                                    <li li-selected="False" class="li" onclick="SelectCategoryItem(this);">
+                                                        <input id="chkCategory22" value="22" type="checkbox">
+                                                        <label>Apartaestudio</label>
+                                                    </li>
+                                                                                   
+                                                    
+                                                    <li li-selected="False" class="li" onclick="SelectCategoryItem(this);">
+                                                        <input id="chkCategory20" value="20" type="checkbox">
+                                                        <label>Cabaña</label>
+                                                    </li>
+                                                                                   
+                                                    
+                                                    <li li-selected="False" class="li" onclick="SelectCategoryItem(this);">
+                                                        <input id="chkCategory9" value="9" type="checkbox">
+                                                        <label>Casa</label>
+                                                    </li>
+                                                                                   
+                                                    
+                                                    <li li-selected="False" class="li" onclick="SelectCategoryItem(this);">
+                                                        <input id="chkCategory21" value="21" type="checkbox">
+                                                        <label>Casa Campestre</label>
+                                                    </li>
+                                                                                   
+                                                    
+                                                    <li li-selected="False" class="li" onclick="SelectCategoryItem(this);">
+                                                        <input id="chkCategory23" value="23" type="checkbox">
+                                                        <label>Casa Lote</label>
+                                                    </li>
+                                                                                   
+                                                    
+                                                    <li li-selected="False" class="li" onclick="SelectCategoryItem(this);">
+                                                        <input id="chkCategory7" value="7" type="checkbox">
+                                                        <label>Finca</label>
+                                                    </li>
+                                                                                   
+                                                    
+                                                    <li li-selected="False" class="li" onclick="SelectCategoryItem(this);">
+                                                        <input id="chkCategory10" value="10" type="checkbox">
+                                                        <label>Habitación</label>
+                                                    </li>
+                                                                                   
+                                                    
+                                                    <li li-selected="False" class="li" onclick="SelectCategoryItem(this);">
+                                                        <input id="chkCategory2" value="2" type="checkbox">
+                                                        <label>Lote</label>
+                                                    </li>
+                                                                                   
+                                                    
+                                                    <li li-selected="False" class="li" onclick="SelectCategoryItem(this);">
+                                                        <input id="chkCategory24" value="24" type="checkbox">
+                                                        <label>Parqueadero</label>
+                                                    </li>
+                                                                          
+                                        </ul>
+				                        <ul id="ddlCategoriesComerciales" class="items">
+                                            <li style="font-weight:bold" catheader="true" class="li">
+                                                <label for="">Oficinas, locales y bodegas</label>
+                                            </li>
+                                                                               
+                                                    
+                                                    <li li-selected="False" class="li" onclick="SelectCategoryItem(this);">
+                                                        <input id="chkCategory5" value="5" type="checkbox">
+                                                        <label>Bodega</label>
+                                                    </li>
+                                                                                   
+                                                    
+                                                    <li li-selected="False" class="li" onclick="SelectCategoryItem(this);">
+                                                        <input id="chkCategory18" value="18" type="checkbox">
+                                                        <label>Consultorio</label>
+                                                    </li>
+                                                                                   
+                                                    
+                                                    <li li-selected="False" class="li" onclick="SelectCategoryItem(this);">
+                                                        <input id="chkCategory19" value="19" type="checkbox">
+                                                        <label>Edificio</label>
+                                                    </li>
+                                                                                   
+                                                    
+                                                    <li li-selected="False" class="li" onclick="SelectCategoryItem(this);">
+                                                        <input id="chkCategory3" value="3" type="checkbox">
+                                                        <label>Local</label>
+                                                    </li>
+                                                                                   
+                                                    
+                                                    <li li-selected="False" class="li" onclick="SelectCategoryItem(this);">
+                                                        <input id="chkCategory4" value="4" type="checkbox">
+                                                        <label>Oficina</label>
+                                                    </li>
+                                                   
+                                        </ul>                
+                                    </div>             
+                                </div>
+                              </div>       
+                            </div>     
+                            <div class="form-group">
+                                <div id="divContainerTransaction" class="form-control w190" style="padding:0px 0px !important;">
+                                    <div class="dropdown-check-list" style="padding:0px 6px !important;"> 
+                                        <span class="anchor" style="padding:11px 0px !important;" onclick="DisplayOptions(this);">Venta</span>
+                                        <div class="drop_offer" style="margin: 2px -7px 6px -7px !important;">
+                                            <ul id="ddlTransactionType" binding="TransactionId" class="items offer">
+                                                
+                                                    
+                                                        <li value="1" onclick="SelectTransactionItem(this, true);" li-selected="True" class="li liSelected">Venta</li>
+                                                    
+                                                    
+                                                        <li value="2" onclick="SelectTransactionItem(this, true);" li-selected="False" class="li">Arriendo</li>
+                                                    
+                                                    
+                                                        <li value="3" onclick="SelectTransactionItem(this, true);" li-selected="False" class="li">Alquiler Vacacional</li>
+                                                                  
+                                            </ul>
+                                        </div>
+                                    </div>
+                              </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="contentSearch">             
+                                    <div class="search-text">
+                                        <div id="divContainerTxtWord" style="position:relative;">
+                                            <input type="hidden" id="HidLocationIds">
+                                            <input type="hidden" id="HidLocationName">
+                                            <input type="hidden" id="HidLocationNameFull">
+                                            <input type="hidden" id="HidLocationNameTex">                           
+                                            <input id="txtWord" onkeypress="searchKeyPress(event);" name="search_term" class="form-control" onblur="onblurTxtWord();" onclick="this.select();" type="text" placeholder="¿Dónde?">
+                                            <div id="divResultsLocation" style="display:none;" class="contenedor_texto_busqueda">
+                                                <div id="divResultsLocationDepartment">
+                                                    <div class="titulos_zona_busqueda">Departamento</div>
+                                                </div>
+                                                <div id="divResultsLocationCity">
+                                                    <div class="titulos_zona_busqueda">Ciudad</div>
+                                                </div>
+                                                <div id="divResultsLocationsector">
+                                                    <div class="titulos_zona_busqueda">Zona</div>
+                                                </div>
+                                                <div id="divResultsLocationNeighborhood">
+                                                    <div class="titulos_zona_busqueda">Barrio</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>     
+                            </div>
+                            <div class="form-group">
+                                <button id="btnSearchAdvert" type="button" class="btn-search" onclick="javascript:btnSearchAdvert_onClick()"><i class="fa fa-search"></i>Buscar</button>    
+                            </div>
+                            <!--checkbox oculto -->
+                            <div class="hidden-xs" style="display:none !important;">
+                                <div class="checkbox">
+                                    <input id="chkProyectosViviendaNueva" type="checkbox">
+                                    <label for="chkProyectosViviendaNueva">Buscó proyectos de vivienda nueva</label>
+                                </div>
+                            </div>                                
+                        </div>      
+                        <!--Checkbox-->
+                        <div class="visible-xs">
+                            <div class="checkbox">
+                                <input id="chkProyectosNuevos" type="checkbox" onclick="ProyectosNuevosCheck(this);">
+                                <label for="chkProyectosNuevos">Mostrar proyectos nuevos</label>
+                            </div>
+                        </div>
+                        <div id="search-code" class="search-code">
+                            <input id="txtCode" type="text" class="form-control" placeholder="Buscar por código de inmueble" onkeypress="javascript:txtCode_onKeyUp(event);" onclick="this.select();">
+                            <a id="boton_buscar_codigo" href="javascript:btnSearchAdvertCode_onClick()"><i class="fa fa-search"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="clear"></div>
+                </div>
+  </div></div>
+
+
 		<!-- CATEGORIAS END -->
 		<div class="col-xs-12">
 			<br>

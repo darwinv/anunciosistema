@@ -1,14 +1,14 @@
 <footer class="pad25 footer-page" style="color:#685a5a;" >
 
-<div class="row sect1">
-	<div class="col-sm-12">
+<div class="row sect1 ">
+	<div class="col-sm-12 ">
 		<h3>Alquilerdepisosycasas.com</h3>
 		<h6>--- Inserte slogan aqui --- </h6>
 	</div>
 
 </div>
 <div class="row sect2">
-			<div class="col-sm-3">
+			<div class="col-sm-3 bloc_tres back-grey">
 		<div class="links_footer">
 			<h5>Oferta de Alquiler en Colombia</h5>
 			<ul>
@@ -20,7 +20,7 @@
 			</ul>
 		</div>
 			</div>
-			<div class="col-sm-3">
+			<div class="col-sm-3 bloc_tres">
 			<h5>¿Quienes Somos?</h5>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 				Nunc erat nunc, luctus ac ullamcorper non, viverra eget mauris.
@@ -29,7 +29,7 @@
 				rhoncus eros.
 			</p>
 			</div>
-			<div class="col-sm-3">
+			<div class="col-sm-3 bloc_tres">
 					<h5>Oferta de Anuncios</h5>
 					<ul>
 						<li><a href="#">Venta de Nuevo y Usados</a></li>
@@ -43,7 +43,7 @@
 						<li><a href="#">Constructoras</a></li>
 					</ul>
 			</div>
-			<div class="col-sm-3">
+			<div class="col-sm-3 bloc_tres">
 				<h5>Nuestros Servicios</h5>
 				<ul>
 					<li><a href="#">Gestion Personal</a></li>
@@ -59,8 +59,11 @@
 			</div>
 </div>
 <div class="row sect3">
-	<div class="col-sm-4"> <h5>Patrocinado por:</h5> 	</div>
-	<div class="col-sm-4">
+	<center>
+	<div class="col-sm-4"> <h5>Patrocinado por:</h5>
+		<img style="" class="" src="{{asset('img/demo-logo.png')}}" width="" height="40px">
+	 	</div>
+	<div class="col-sm-4 bloc_tres">
 		 <h5 style="display:inline-block">Siguenos en:</h5>
 		 <ul class="list-inline">
 
@@ -82,7 +85,10 @@
 		 </li>
 		 	</ul>
 	 </div>
-	<div class="col-sm-4"> <h5> Afiliado a:</h5>  </div>
+	<div class="col-sm-4 bloc_tres"> <h5> Afiliado a:</h5>
+		<img style="" class="" src="{{asset('img/clasif-logo.png')}}" width="" height="40px">
+	  </div>
+		</center>
 </div>
 
 

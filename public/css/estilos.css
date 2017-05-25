@@ -38,12 +38,11 @@ header {
 footer
 {
 
-background: #e5e5e5;
+background: white;
 color:#666;
 display:block;
 margin:0;
 width: 100%;
-position: fixed;
 bottom: 0px;
 left:0px;
 z-index: 999;
@@ -54,6 +53,17 @@ border-top:  solid #d8d8d8 1px;
 box-shadow: 0px -1px 26px -1px rgba(0,0,0,0.4);
 }
 
+.footer-page .sect2{
+background-color: white;
+}
+.footer-page .sect1{
+background-color:#8A90A8;
+}
+
+.footer-page h5{
+	color: #090912;
+	font-weight: bold;
+}
 
 .text-dec-none:hover,  .text-dec-none:active, .text-dec-none, .text-dec-none:visited, .text-dec-none:before, .text-dec-none:focus, .text-dec-none:after
 {

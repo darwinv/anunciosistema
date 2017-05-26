@@ -11,22 +11,31 @@
 									<li class="dropdown">
 										<a href="#" class="dropdown-toggle" data-toggle="dropdown">Proyectos de Vivienda</a>
 										<ul class="dropdown-menu">
-												<li><a href="#">Link</a></li>
-												<li><a href="#">Link</a></li>
+												<li><a href="#">Proyectos de Vivienda en Bogotá</a></li>
+												<li><a href="#">Proyectos de Vivienda en Cali</a></li>
+												<li><a href="#">Proyectos de Vivienda en Medellin</a></li>
+												<li><a href="#">Proyectos de Vivienda en Antioquia</a></li>
+												<li><a href="#">Proyectos de Vivienda en Eje Cafetero</a></li>
+												<li><a href="#">Proyectos de Vivienda en Barranquilla</a></li>
+												<li><a href="#">Proyectos de Vivienda en Bucaramanga</a></li>
 										</ul>
 									</li>
 									<li class="dropdown">
 										<a href="#" class="dropdown-toggle" data-toggle="dropdown">Anuncios en arriendo</a>
 										<ul class="dropdown-menu">
-												<li><a href="#">Link</a></li>
-												<li><a href="#">Link</a></li>
+												<li><a href="#">Apartamentos en Arriendo en Bogota</a></li>
+												<li><a href="#">Casas en Arriendo en Bogota</a></li>
+												<li><a href="#">Apartamentos en Arriendo en Cali</a></li>
+												<li><a href="#">Casas en Arriendo en Cali</a></li>
 										</ul>
 									</li>
 									<li class="dropdown">
 										<a href="#" class="dropdown-toggle" data-toggle="dropdown">Anuncios en Venta</a>
 										<ul class="dropdown-menu">
-												<li><a href="#">Link</a></li>
-												<li><a href="#">Link</a></li>
+												<li><a href="#">Apartamentos en venta en Bogota</a></li>
+												<li><a href="#">Casas en venta en Bogota</a></li>
+												<li><a href="#">Apartamentos en venta en Cali</a></li>
+												<li><a href="#">Casas en venta en Cali</a></li>
 										</ul>
 									</li>
 									<li class="dropdown">
@@ -39,15 +48,17 @@
 									<li class="dropdown">
 										<a href="#" class="dropdown-toggle" data-toggle="dropdown">Servicio al Cliente</a>
 										<ul class="dropdown-menu">
-												<li><a href="#">Link</a></li>
-												<li><a href="#">Link</a></li>
+												<li><a href="#">Preguntas frecuentes</a></li>
+												<li><a href="#">Contactenos</a></li>
+												<li><a href="#">Deja tus Comentarios </a></li>
+												<li><a href="#">Anuncia con nosotros</a></li>
 										</ul>
 									</li>
 									<li class="dropdown">
 										<a href="#" class="dropdown-toggle" data-toggle="dropdown">Mi cuenta</a>
 										<ul class="dropdown-menu">
-												<li><a href="#">Link</a></li>
-												<li><a href="#">Link</a></li>
+												<li><a href="#">Gestion Empresarial</a></li>
+												<li><a href="#">Gestion Personal</a></li>
 										</ul>
 									</li>
 							</ul>
@@ -58,7 +69,7 @@
 
 	<div class="col-xs-12 col-sm-12 ">
 		<!-- CATEGORIAS BEGIN -->
-		
+
 		<div class="col-xs-12" >
 			<div id="DivHomeSearch" class="DivHomeSearch">
             <!--search contenedor-->
@@ -66,148 +77,148 @@
                     <div class="clear"></div>
                     <div class="col-xs-12 searchbox">
                         <h1 class="text-center TitleBusqueda h1">Realiza tu búsqueda aquí</h1>
-                        <!--tabs-->  
+                        <!--tabs-->
                         <div class="navbar-form">
                             <div class="form-group">
                               <div id="divContainerCategories" class="form-control w140" style="padding:0px 0px !important;">
-                                <div class="dropdown-check-list" style="padding:0px 6px !important;">          
+                                <div class="dropdown-check-list" style="padding:0px 6px !important;">
                                     <span class="anchor" style="padding:11px 0px !important;" onclick="DisplayOptions(this);">¿Qué buscas?</span>
                                     <div id="ddlCategories" binding="Category1Id" class="drop" style="margin: 2px -7px 6px -7px !important;">
                                         <ul id="ddlCategoriesVivienda" class="items">
                                             <li style="font-weight:bold" catheader="true" class="li">
                                                 <label for="">Vivienda</label>
                                             </li>
-                                                                               
-                                                    
+
+
                                                     <li li-selected="False" class="li" onclick="SelectCategoryItem(this);">
                                                         <input id="chkCategory8" value="8" type="checkbox">
                                                         <label>Apartamento</label>
                                                     </li>
-                                                                                   
-                                                    
+
+
                                                     <li li-selected="False" class="li" onclick="SelectCategoryItem(this);">
                                                         <input id="chkCategory22" value="22" type="checkbox">
                                                         <label>Apartaestudio</label>
                                                     </li>
-                                                                                   
-                                                    
+
+
                                                     <li li-selected="False" class="li" onclick="SelectCategoryItem(this);">
                                                         <input id="chkCategory20" value="20" type="checkbox">
                                                         <label>Cabaña</label>
                                                     </li>
-                                                                                   
-                                                    
+
+
                                                     <li li-selected="False" class="li" onclick="SelectCategoryItem(this);">
                                                         <input id="chkCategory9" value="9" type="checkbox">
                                                         <label>Casa</label>
                                                     </li>
-                                                                                   
-                                                    
+
+
                                                     <li li-selected="False" class="li" onclick="SelectCategoryItem(this);">
                                                         <input id="chkCategory21" value="21" type="checkbox">
                                                         <label>Casa Campestre</label>
                                                     </li>
-                                                                                   
-                                                    
+
+
                                                     <li li-selected="False" class="li" onclick="SelectCategoryItem(this);">
                                                         <input id="chkCategory23" value="23" type="checkbox">
                                                         <label>Casa Lote</label>
                                                     </li>
-                                                                                   
-                                                    
+
+
                                                     <li li-selected="False" class="li" onclick="SelectCategoryItem(this);">
                                                         <input id="chkCategory7" value="7" type="checkbox">
                                                         <label>Finca</label>
                                                     </li>
-                                                                                   
-                                                    
+
+
                                                     <li li-selected="False" class="li" onclick="SelectCategoryItem(this);">
                                                         <input id="chkCategory10" value="10" type="checkbox">
                                                         <label>Habitación</label>
                                                     </li>
-                                                                                   
-                                                    
+
+
                                                     <li li-selected="False" class="li" onclick="SelectCategoryItem(this);">
                                                         <input id="chkCategory2" value="2" type="checkbox">
                                                         <label>Lote</label>
                                                     </li>
-                                                                                   
-                                                    
+
+
                                                     <li li-selected="False" class="li" onclick="SelectCategoryItem(this);">
                                                         <input id="chkCategory24" value="24" type="checkbox">
                                                         <label>Parqueadero</label>
                                                     </li>
-                                                                          
+
                                         </ul>
 				                        <ul id="ddlCategoriesComerciales" class="items">
                                             <li style="font-weight:bold" catheader="true" class="li">
                                                 <label for="">Oficinas, locales y bodegas</label>
                                             </li>
-                                                                               
-                                                    
+
+
                                                     <li li-selected="False" class="li" onclick="SelectCategoryItem(this);">
                                                         <input id="chkCategory5" value="5" type="checkbox">
                                                         <label>Bodega</label>
                                                     </li>
-                                                                                   
-                                                    
+
+
                                                     <li li-selected="False" class="li" onclick="SelectCategoryItem(this);">
                                                         <input id="chkCategory18" value="18" type="checkbox">
                                                         <label>Consultorio</label>
                                                     </li>
-                                                                                   
-                                                    
+
+
                                                     <li li-selected="False" class="li" onclick="SelectCategoryItem(this);">
                                                         <input id="chkCategory19" value="19" type="checkbox">
                                                         <label>Edificio</label>
                                                     </li>
-                                                                                   
-                                                    
+
+
                                                     <li li-selected="False" class="li" onclick="SelectCategoryItem(this);">
                                                         <input id="chkCategory3" value="3" type="checkbox">
                                                         <label>Local</label>
                                                     </li>
-                                                                                   
-                                                    
+
+
                                                     <li li-selected="False" class="li" onclick="SelectCategoryItem(this);">
                                                         <input id="chkCategory4" value="4" type="checkbox">
                                                         <label>Oficina</label>
                                                     </li>
-                                                   
-                                        </ul>                
-                                    </div>             
+
+                                        </ul>
+                                    </div>
                                 </div>
-                              </div>       
-                            </div>     
+                              </div>
+                            </div>
                             <div class="form-group">
                                 <div id="divContainerTransaction" class="form-control w190" style="padding:0px 0px !important;">
-                                    <div class="dropdown-check-list" style="padding:0px 6px !important;"> 
+                                    <div class="dropdown-check-list" style="padding:0px 6px !important;">
                                         <span class="anchor" style="padding:11px 0px !important;" onclick="DisplayOptions(this);">Venta</span>
                                         <div class="drop_offer" style="margin: 2px -7px 6px -7px !important;">
                                             <ul id="ddlTransactionType" binding="TransactionId" class="items offer">
-                                                
-                                                    
+
+
                                                         <li value="1" onclick="SelectTransactionItem(this, true);" li-selected="True" class="li liSelected">Venta</li>
-                                                    
-                                                    
+
+
                                                         <li value="2" onclick="SelectTransactionItem(this, true);" li-selected="False" class="li">Arriendo</li>
-                                                    
-                                                    
+
+
                                                         <li value="3" onclick="SelectTransactionItem(this, true);" li-selected="False" class="li">Alquiler Vacacional</li>
-                                                                  
+
                                             </ul>
                                         </div>
                                     </div>
                               </div>
                             </div>
                             <div class="form-group">
-                                <div class="contentSearch">             
+                                <div class="contentSearch">
                                     <div class="search-text">
                                         <div id="divContainerTxtWord" style="position:relative;">
                                             <input type="hidden" id="HidLocationIds">
                                             <input type="hidden" id="HidLocationName">
                                             <input type="hidden" id="HidLocationNameFull">
-                                            <input type="hidden" id="HidLocationNameTex">                           
+                                            <input type="hidden" id="HidLocationNameTex">
                                             <input id="txtWord" onkeypress="searchKeyPress(event);" name="search_term" class="form-control" onblur="onblurTxtWord();" onclick="this.select();" type="text" placeholder="¿Dónde?">
                                             <div id="divResultsLocation" style="display:none;" class="contenedor_texto_busqueda">
                                                 <div id="divResultsLocationDepartment">
@@ -225,10 +236,10 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>     
+                                </div>
                             </div>
                             <div class="form-group">
-                                <button id="btnSearchAdvert" type="button" class="btn-search" onclick="javascript:btnSearchAdvert_onClick()"><i class="fa fa-search"></i>Buscar</button>    
+                                <button id="btnSearchAdvert" type="button" class="btn-search" onclick="javascript:btnSearchAdvert_onClick()"><i class="fa fa-search"></i>Buscar</button>
                             </div>
                             <!--checkbox oculto -->
                             <div class="hidden-xs" style="display:none !important;">
@@ -236,8 +247,8 @@
                                     <input id="chkProyectosViviendaNueva" type="checkbox">
                                     <label for="chkProyectosViviendaNueva">Buscó proyectos de vivienda nueva</label>
                                 </div>
-                            </div>                                
-                        </div>      
+                            </div>
+                        </div>
                         <!--Checkbox-->
                         <div class="visible-xs">
                             <div class="checkbox">
@@ -250,7 +261,7 @@
                             <a id="boton_buscar_codigo" href="javascript:btnSearchAdvertCode_onClick()"><i class="fa fa-search"></i></a>
                         </div>
                     </div>
-                    
+
                     <div class="clear"></div>
                 </div>
   </div></div>

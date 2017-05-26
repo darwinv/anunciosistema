@@ -55,7 +55,7 @@
 						<div style="width:90%" class="marL10">
 							 <br><br><br>
 							 <p class="monto-comprar ">
-								<span><b>Bs. {{ $publication->price }}</b></span>
+								<span><b>$COP {{ number_format( $publication->price , 2) }}</b></span>
 							</p>
 							<p class="items-comprar  " >
 								<span>

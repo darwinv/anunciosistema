@@ -21,7 +21,7 @@
 		@else
 			@include("site.template.partials.nav")
 		@endif
-        <div class="row container-fluid">
+        <div class="container-fluid">
 			<div class="hidden-xs col-sm-4"></div>
 			<div class="col-xs-12 col-sm-6">
 				@include('flash::message')

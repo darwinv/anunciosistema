@@ -282,7 +282,7 @@
 								<a href="{{ route('publications.show',$publication->id) }}"><img alt="" src="{{asset('img/publications/' . $publication->images->first()->name . '.' . $publication->images->first()->extention)}}" class="img img-responsive img-publicar2" /></a>
 							</div>
 							<div class="panel-footer t14">
-								<span class="red t20 right-align">Bs. {{ $publication->price }}</span><br>
+								<span class="red t20 right-align">$COP {{ number_format( $publication->price , 2) }}</span><br>
 								{{ $publication->title }}<br>
 								<a href="{{ route('users.show',$publication->user->id) }}">{{ $publication->user->seudonimo }}</a><br>
 								{{ $publication->user->estado()->first()->name }}<br>

@@ -222,7 +222,7 @@
 							<div class=' col-xs-12 col-sm-12 col-md-3 col-lg-3 text-right'>
 								<div class='marR20'>
 									<span class='red t20'>
-										Bs. <b> {{ $publication->price }}</b>
+										$COP <b> {{ number_format( $publication->price , 2) }}</b>
 									</span >
 									<br>
 									<span class=' t12'> {{ $publication->user->estado()->first()->name }} </span>

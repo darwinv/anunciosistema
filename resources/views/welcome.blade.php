@@ -261,7 +261,7 @@
 			<br>
 		</div>
 		<!-- ULTIMAS PUBLICACIONES BEGIN -->
-		<div class="col-xs-12 contenedor" style="height:500px;overflow:auto;">
+		<div class="col-xs-12 ">
 			<center><h1>Ultimas publicaciones</h1></center>
 			@foreach($publications as $publication)
 				@if($publication->status=='Activo')
@@ -285,9 +285,96 @@
 			@endforeach
 		</div>
 		<!-- ULTIMAS PUBLICACIONES END -->
-		<div class="col-xs-12">
-			<br><br><br><br>
-		</div>
+		<div class="col-xs-12 content-home">
+            <div class="left news">                
+                <div class="sm-box box" style="height: 440px;clear:both">
+                    <h2 class="box-title h2-news">Especiales de Alquiler de pisos y casas</h2>
+                    <div class="box-content left link-news_2">
+                        <h3 class="normal h3-news">                              
+                            <a href="#" href="/mi_casa_ya_nuevo_programa_de_vivienda_para_la_clase_media-noticia-483.aspx" title="Ver Requisitos y Proyectos que aplican a Mi Casa Ya">MI Casa Ya, programa de vivienda </a>
+                        </h3>                                 
+                        <span class="span">
+                        Conoce todos los requisitos e información importante sobre los nuevos programas para vivienda hasta los 93 millones <a href="#" href="/mi_casa_ya_nuevo_programa_de_vivienda_para_la_clase_media-noticia-483.aspx" title="Ver Requisitos Mi Casa Ya">Mi Casa Ya-Cuota Inicial</a>  y para viviendas hasta los 231 millones <a href="#" href="/en_que_consiste_el_nuevo_programa_mi_casa_ya_subsidio_tasa_de_interes-noticia-591.aspx" title="Ver Requisitos Mi Casa Ya Subsidio a la Tasa de Interés">Mi Casa Ya-Subsidio a la Tasa de Interés.</a>  
+                        Estos programas otorgan subsidios a la cuota inicial y la tasa de interés. Utilice nuestra <a href="#" href="/encuentre_proyectos_de_mi_casa_ya_en_este_portal-noticia-543.aspx" title="Ver Requisitos Mi Casa Ya Subsidio a la Tasa de Interés">guía</a> para encontrar proyectos que aplican a los programas Mi Casa Ya en nuestro portal o acceda directamente a nuestro listado de <a href="#" href="/proyectos-vivienda-nueva/?ad=30|1|||||||||||||||||||||MCY|||||1|||1||random_17%20asc||2||-1" title="Ver Requisitos Mi Casa Ya Subsidio a la Tasa de Interés">proyectos mi casa ya.</a>
+                        </span>                
+                    </div>
+                    <div class="box-content left link-news_2">
+                        <h3 class="normal h3-news">
+                            <a href="#" href="/inmuebles-comerciales.aspx" title="Ver Especial Inmuebles Comerciales">Las mejores ofertas en inmuebles comerciales</a>
+                        </h3>    
+                        <span class="span">
+                            Descubra las más diversas alternativas de inmuebles comerciales como oficinas, locales y 
+                            consultorios en nuestro <a href="#" href="/inmuebles-comerciales.aspx" title="Ver Especial Inmuebles Comerciales">especial virtual</a>. Donde podrá encontrar información de precios, 
+                            áreas y otras características de los inmuebles.
+                        </span>                            
+                    </div>
+                    <div class="box-content left link-news_2">
+                        <h3 class="normal h3-news">
+                            <a href="#" href="/como_comprar_vivienda_de_interes_social_-noticia-263.aspx" title="Ver noticia Viviendas de Interés Social" target="_blank">¿Cómo comprar Vivienda
+                                de Interés Social?</a></h3>
+                        <span class="span">Acceder a un subsidio de vivienda es posible, gracias a los aportes
+                            del Gobierno Nacional y de las Cajas de Compensación Familiar, que son las entidades
+                            encargadas de otorgar por una sola vez al beneficiario, una suma de dinero, que
+                            se constituye en un complemento del ahorro y de los recursos para adquirir, construir
+                            en sitio propio o mejorar una vivienda.
+                            <br>
+                            Para consultar los proyectos de Vivienda Interés Social ingrese al <a href="#" href="/proyectos__viviendas-interes-social.aspx" title="Ver Proyectos de Vivienda de Interés Social" target="_blank">
+                                especial de proyectos VIS</a>, de nuestro portal Alquilerdepisosycasas.com. </span>
+                    </div>
+                </div>
+            </div>
+            <div class="left news"> 
+                <div id="homeNews" class="home-news">
+                                        
+                    <div class="news-box">
+                        <h2 class="box-title">
+                        Noticias inmobiliarias</h2> 
+                        
+                                <div class="box-content left link-news" itemscope="" itemtype="https://schema.org/NewsArticle" style="width:290px;">
+                                    <figure itemprop="image" itemscope="" itemtype="https://schema.org/ImageObject" style="margin:0px;">
+                                        <img class="left" src="{{asset('img/news/casa.jpg')}}" width="150" height="112" itemprop="url">
+                                        <meta itemprop="width" content="150">
+                                        <meta itemprop="height" content="112">
+                                    </figure>
+                                    <h3 class="normal h3-news" itemprop="headline"><a href="#" href="/manzana-verde-la-mejor-forma-de-vivir-en-un-ambiente-natural-noticia-741.aspx" itemprop="mainEntityOfPage">Manzana Verde la mejor forma de vivir en un ambiente natural </a></h3>
+                                    <span class="span" itemprop="description">Manzana Verde Apartamentos de 9 pisos, sistema sismo resistente, terraza, gimnasio, zona social e infantil. La mejor inversión para su familia en cedritos.</span>               
+                                    <!--informacion articulo-->
+                                    <meta itemprop="author" content="Alquilerdepisosycasas.com">
+                                    <div itemprop="publisher" itemscope="" itemtype="https://schema.org/Organization">
+                                        <meta itemprop="name" content="Alquilerdepisosycasas.com">
+                                        <div itemprop="logo" itemscope="" itemtype="https://schema.org/ImageObject">
+                                            <meta itemprop="url" content="/App_Theme/images/mailing/23_12_16_0_508.png">
+                                        </div>
+                                    </div>
+                                    <meta itemprop="datePublished" content="5/5/2017 7:36:23 PM">
+                                    <meta itemprop="dateModified" content="5/12/2017 1:48:50 PM">                    
+                                </div>
+                            
+                                <div class="box-content left link-news" itemscope="" itemtype="https://schema.org/NewsArticle" style="width:290px;border-right:none">
+                                    <figure itemprop="image" itemscope="" itemtype="https://schema.org/ImageObject" style="margin:0px;">
+                                        <img class="left" src="{{asset('img/news/casa.jpg')}}" width="150" height="112" itemprop="url">
+                                        <meta itemprop="width" content="150">
+                                        <meta itemprop="height" content="112">
+                                    </figure>
+                                    <h3 class="normal h3-news" itemprop="headline"><a href="#" href="/mtreinta-el-mejor-proyecto-para-invertir-en-ibague-noticia-736.aspx" itemprop="mainEntityOfPage">M-treinta, el mejor proyecto para invertir en Ibagué </a></h3>
+                                    <span class="span" itemprop="description">En uno de los mejores sectores de Ibagué, se construye M-treinta, una torre de 26 pisos con vivienda y locales comerciales que se constituye en una gran oportunidad de inversión.</span>               
+                                    <!--informacion articulo-->
+                                    <meta itemprop="author" content="Alquilerdepisosycasas.com">
+                                    <div itemprop="publisher" itemscope="" itemtype="https://schema.org/Organization">
+                                        <meta itemprop="name" content="Alquilerdepisosycasas.com">
+                                        <div itemprop="logo" itemscope="" itemtype="https://schema.org/ImageObject">
+                                            <meta itemprop="url" content="/App_Theme/images/mailing/23_12_16_0_508.png">
+                                        </div>
+                                    </div>
+                                    <meta itemprop="datePublished" content="4/11/2017 6:03:50 PM">
+                                    <meta itemprop="dateModified" content="5/25/2017 8:46:06 PM">                    
+                                </div>
+                            
+                    </div>
+                    </div>
+                </div>
+        </div>
+        <br><br>
 		</div>
 	</div>
 	<div class="hidden-xs col-sm-1"></div>

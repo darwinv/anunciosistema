@@ -5382,20 +5382,21 @@ textarea {
  }
  
  .content-home .news {
-     width: 640px
+     width: 640px;
+     display: inline-block;
+    float: none;
+    padding: 5px;
  }
  
  .content-home .news .home-news {
-     clear: both;
-     min-height: 260px;
-     display: block;
-     float: left;
-     margin-bottom: 10px
+    clear: both;
+    min-height: 260px;
+    border: 1px solid #D2D9E8;
  }
  
  .content-home .news .home-news .news-box {
      border: 1px solid #D2D9E8;
-     float: left
+     float: none;
  }
  
  .content-home .news .box-title {

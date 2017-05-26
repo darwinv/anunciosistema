@@ -8,8 +8,8 @@
 					class="icon-bar"></span>
 			</button>
 			<a href="{{ route('siteHome') }}" class="navbar-brand"> <img style=""
-				class="marT5 marB5 marL5" src="{{asset('img/logo-header.png')}}"
-				width="120px;" height="50px">
+				class="marT5 marB5 marL5" src="{{asset('img/demo-logo.png')}}"
+				width="220px;" height="80px">
 			</a>
 		</div>
 	<!--	<div class="collapse navbar-collapse" id="menuP">
